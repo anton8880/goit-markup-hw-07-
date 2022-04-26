@@ -4,7 +4,7 @@
 }
 
 .section-example__title{
-  color: var(--primary-text-color);
+  color: $text-color;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -47,5 +47,5 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: $thirdly-text-color;
 }
