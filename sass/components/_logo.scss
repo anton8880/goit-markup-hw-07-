@@ -4,14 +4,17 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
 
-.logo-web {
+  &-web {
   color: $main-color;
-}
-.logo-studio {
+ }
+  &-studio {
   color: $text-color;
-}
-.logo-studio-two {
+
+  &-two {
   color: $thirdly-text-color;
 }
+}
+}
+
+

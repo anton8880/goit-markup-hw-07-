@@ -81,7 +81,7 @@
   letter-spacing: 0.03em;
   margin: 0;
 
-  color: $thirdly-text-color
+  color: $thirdly-text-color;
 }
 
 .div-portfolio {
@@ -92,7 +92,7 @@
 }
 
 .head-two {
-  color: var(--primary-text-color);
+  color: $text-color;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -105,7 +105,7 @@
 }
 
 .paragraph-two {
-  color: var(--title-text-color);
+  color: $secondary-text-color;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;

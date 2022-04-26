@@ -11,9 +11,8 @@
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-}
 
-.hero-title {
+ &-title {
   color: $thirdly-text-color;
   font-weight: 900;
   font-size: 44px;
@@ -25,3 +24,6 @@
   margin-top: 0px;
   margin-bottom: 30px;
 }
+}
+
+
