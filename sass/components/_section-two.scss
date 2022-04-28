@@ -1,8 +1,9 @@
 .section-example{
   padding-top: 94px;
   padding-bottom: 94px;
+}
 
-  &__title{
+  .section-example__title{
   color: $text-color;
   font-weight: bold;
   font-size: 36px;
@@ -13,7 +14,7 @@
   margin-bottom: 50px;
 }
 
-&__images {
+.section-example__images {
   display: flex;
   padding-left: 0px;
   margin-top: 0px;
@@ -21,7 +22,7 @@
   position: relative;
 }
 
-&__position{
+.section-example__position{
   background: rgba(47, 48, 58, 0.8);
   bottom: 0;
   right: 0;
@@ -29,7 +30,7 @@
   position: absolute;
 }
 
-&__position-title{
+.section-example__position-title{
   margin: 0;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -44,8 +45,6 @@
 
   color: $thirdly-text-color;
 }
-}
-
 
 .item.section-example__images + .item.section-example__images {
   margin-left: 30px;

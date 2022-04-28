@@ -84,12 +84,13 @@
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  &-form{
+.modal-form{
   padding: 40px;
 }
 
-  &-hero{
+.modal-hero{
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: bold;
@@ -99,7 +100,6 @@
   letter-spacing: 0.03em;
 
   color: $text-color;
-}
 }
 
 .form-field{
@@ -169,15 +169,15 @@
   border-radius: 50%;
   background-color: transparent;
 
-  &-icon{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   &:hover .close-icon,
   &:focus .close-icon{
   fill:$main-color;
 }  
 }
+
+.close-icon{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 .comment{
   padding: 16px 12px;
@@ -217,8 +217,9 @@
   margin-top: 20px;
 
   color: $secondary-text-color;
-  
-  &-link{
+}
+
+ .terms-link{
   margin-left: 5px;
   font-size: 14px;
   line-height: 2;
@@ -226,7 +227,6 @@
 
   text-decoration: underline;
   color: $main-color
-}
 }
 
 .checkbox-hidden{
@@ -236,7 +236,7 @@
   border: transparent;
   background-size: contain;
   box-sizing: border-box;
-  background-image: url(../images/icon\ check-2.svg);
+  background-image: url(../images/check-2.svg);
 }
 }
 

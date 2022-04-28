@@ -1,12 +1,12 @@
 .header {
   background-color: $thirdly-text-color;
   border-bottom: 1px solid #ececec;
+}
 
-  &-inner {
+.header-inner {
   display: flex;
   align-items: center;
   height: 80px;
-}
 }
 
 .main-nav {
@@ -20,8 +20,9 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
+}
 
-  & .link {
+  .site-nav .link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -40,9 +41,8 @@
   color: $main-color;
 }
 
-&.current {
+ &.current {
   color: $main-color;
-}
 }
 }
 
@@ -53,8 +53,9 @@
 .cont-nav {
   display: flex;
   align-items: center;
+}
 
-  & .link {
+.cont-nav .link {
   display: flex;
   align-items: center;
   padding-top: 34px;
@@ -78,38 +79,29 @@
 }
 }
 
-&.item + .item {
+.item + .item {
   margin-left: 50px;
 }
 
-&.list {
+.cont-nav.list {
   align-items: center;
   margin-left: auto;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-} 
+
 
 .item-icon {
   margin-right: 10px;
+}
 
-  &.envelope{
+  .item-icon.envelope{
   fill: currentColor;
 
   &:hover,
   &:focus{
   fill: $main-color;
-}
-}
-
-&.tel{
-  fill: currentColor;
-
-  &:hover,
-  &:focus{
-  fill: $main-color;
-}
 }
 }
 
@@ -118,7 +110,28 @@
   height: 12px;
 }
 
+.item-icon.tel{
+  fill: currentColor;
+  
+  &:hover,
+  &:focus{
+  fill: $main-color;
+}
+}
+
 .tel {
   width: 10px;
   height: 16px;
+}
+
+.link.item-current::after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: $main-color;
+  border-radius: 2px;
 }

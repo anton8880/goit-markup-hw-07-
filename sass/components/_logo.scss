@@ -4,17 +4,18 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
 
-  &-web {
+  .logo-web {
   color: $main-color;
  }
-  &-studio {
-  color: $text-color;
 
-  &-two {
+  .logo-studio {
+  color: $text-color;
+  }
+   
+  .logo-studio-two {
   color: $thirdly-text-color;
-}
-}
 }
 
 
